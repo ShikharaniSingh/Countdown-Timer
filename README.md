@@ -43,8 +43,8 @@ npm start
 The app will be available at http://localhost:3000/.
 
 📸 Screenshots
-
-
+![React App - Google Chrome 30-06-2025 02_15_03](https://github.com/user-attachments/assets/d5ee67cd-f056-4c28-a01b-bafc60b1005f)
+![React App - Google Chrome 30-06-2025 02_15_26](https://github.com/user-attachments/assets/aba5f712-122d-41f3-b5bf-a74e8876d93c)
 
 🗂️ Project Structure
 cpp
