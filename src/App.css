@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.App.light {
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.App.dark {
+  background-color: #1a1a2e;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+.input-area input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.input-area button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background-color: #00b4d8;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle {
+  display: block;
+  margin-top: 1rem;
+}
+
+.timers {
+  margin-top: 2rem;
+}
+
+/* Timer container box */
+.timer-box {
+  background-color: #edf6f9;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.App.dark .timer-box {
+  background-color: #273469;
+}
+
+/* Target time (AM/PM) display */
+.target-info {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.App.dark .target-info {
+  color: #ccc;
+}
+
+.timer {
+  background-color: #caf0f8;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.App.dark .timer {
+  background-color: #1f4068;
+  color: #fff;
+}
+
+.timer.finished {
+  background-color: #90be6d;
+  color: #fff;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 10px #43aa8b;
+  }
+
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #43aa8b;
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px #43aa8b;
+  }
+}
